@@ -5,26 +5,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="styles.css" rel="stylesheet">
+  <link rel="text-styles.css" rel="stylesheet">
   
   <title>Frontend Mentor | Order summary card</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <div id="wrapper">
     <div id="container">
-      <h1>Order Summary</h1>
-      <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-      <div>
-        Annual Plan<br>
-        $59.99/year<br>
-        Change</p>
-      <button style="display:block;">Proceed to Payment</button>
-      <button>Cancel Order</button>
+      <img src="images/illustration-hero.svg" width="330px" height="auto">
+      <div id="text-content">
+        <h1>Order Summary</h1>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+        <div id="plan-cost">
+          <img src="images/icon-music.svg" max-width="100%" style="object-fit:contain;">
+          <p>Annual Plan<br>
+          $59.99/year
+        </p>
+          <p>Change</p>
+        </div>
+        <button style="display:block;">Proceed to Payment</button>
+        <button>Cancel Order</button>
+      </div> <!-- end "text-content"-->
     </div> <!-- end "container" -->
   </div> <!-- end "wrapper" -->
 

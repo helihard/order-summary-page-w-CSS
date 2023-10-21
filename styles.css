@@ -1,0 +1,50 @@
+:root {
+  --paleblue: hsl(225, 100%, 94%);
+  --brightblue: hsl(245, 75%, 52%);
+  --verypaleblue: hsl(225, 100%, 98%);
+  --desaturatedblue: hsl(224, 23%, 55%);
+  --darkblue: rgb(31, 47, 86);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--paleblue);
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--paleblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  overflow: hidden;
+  border-radius: 1.2rem;
+  box-shadow: 0 3px 10px rgb(31, 47, 86, 0.3);
+}
+
+#text-content {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#plan-cost {
+  display: flex;
+  align-self: stretch;
+  gap: 1rem;
+  background-color: var(--verypaleblue);
+  padding: .5rem 1rem;
+  border-radius: .6rem;
+
+}
