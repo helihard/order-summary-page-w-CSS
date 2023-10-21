@@ -1,6 +1,6 @@
 :root {
   --paleblue: hsl(225, 100%, 94%);
-  --brightblue: hsl(245, 75%, 52%);
+  --brightblue: rgb(56, 41, 224);
   --verypaleblue: hsl(225, 100%, 98%);
   --desaturatedblue: hsl(224, 23%, 55%);
   --darkblue: rgb(31, 47, 86);
@@ -20,6 +20,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Red Hat Display', sans-serif;
 }
 
 #container {
@@ -29,7 +30,7 @@ body {
   width: 330px;
   overflow: hidden;
   border-radius: 1.2rem;
-  box-shadow: 0 3px 10px rgb(31, 47, 86, 0.3);
+  box-shadow: 0 3px 10px rgb(56, 41, 224, 0.2);
 }
 
 #text-content {
@@ -42,9 +43,10 @@ body {
 #plan-cost {
   display: flex;
   align-self: stretch;
-  gap: 1rem;
+  gap: 1.2rem;
   background-color: var(--verypaleblue);
-  padding: .5rem 1rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
   border-radius: .6rem;
 
 }

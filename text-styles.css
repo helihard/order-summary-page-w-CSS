@@ -1,3 +1,64 @@
+h1 {
+  margin: 0 0 .9rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+  letter-spacing: .03rem;
+  color: var(--darkblue);
+}
+
+p {
+  margin: 0;
+  padding: 0 1rem;
+  color: var(--desaturatedblue);
+  font-size: .9rem;
+  letter-spacing: .02rem;
+  line-height: 1.7;
+  text-align: center;
+}
+
+#annual {
+  color: var(--darkblue);
+  position: relative;
+  font-size: .85rem;
+  line-height: 1.5;
+  align-self: center;
+}
+
+#annual span {
+  color: var(--desaturatedblue);
+}
+
+strong {
+  font-weight: 900;
+}
+
+a {
+  color:rgb(107, 10, 241);
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: .8rem;
+}
+
+a:hover {
+  color: rgb(154, 97, 235);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(154, 97, 235);
+  text-decoration: none;
+}
+
+a:visited {
+  color:rgb(107, 10, 241);
+  text-decoration: underline;
+}
+
+#plan-cost a {
+  display: flex;
+  align-items: center;
+}
+
 .attribution { 
   font-size: 11px; 
   text-align: center; 
