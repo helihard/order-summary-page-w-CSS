@@ -32,26 +32,26 @@ strong {
   font-weight: 900;
 }
 
-a {
+a:link {
   color:rgb(107, 10, 241);
   text-decoration: underline;
   font-weight: 700;
   font-size: .8rem;
 }
 
+a:visited {
+  color:rgb(107, 10, 241);
+  text-decoration: underline;
+}
+
 a:hover {
-  color: rgb(154, 97, 235);
+  color: rgb(121, 107, 241);
   text-decoration: none;
 }
 
 a:active {
-  color: rgb(154, 97, 235);
+  color: rgb(121, 107, 241);
   text-decoration: none;
-}
-
-a:visited {
-  color:rgb(107, 10, 241);
-  text-decoration: underline;
 }
 
 #plan-cost a {

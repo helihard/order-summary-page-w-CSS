@@ -55,10 +55,11 @@ button {
   outline: 0;
   font-family: 'Red Hat Display', sans-serif;
   font-weight: 900;
-  font-size: .9rem;
+  font-size: .8rem;
   letter-spacing: .01rem;
   padding: 1rem;
   border-radius: .6rem;
+  cursor: pointer;
 }
 
 button:first-of-type {
@@ -66,10 +67,18 @@ button:first-of-type {
   background-color: var(--brightblue);
   color: white;
   box-shadow: 0 10px 20px rgb(56, 41, 224, 0.2);
+}
 
+button:first-of-type:hover {
+  background-color: rgb(121, 107, 241);
 }
 
 button:last-of-type {
   background-color: transparent;
   color: var(--desaturatedblue);
+  margin-top: .5rem;
+}
+
+button:last-of-type:hover {
+  color: var(--darkblue);
 }
