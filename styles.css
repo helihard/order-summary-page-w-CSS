@@ -30,7 +30,7 @@ body {
   width: 330px;
   overflow: hidden;
   border-radius: 1.2rem;
-  box-shadow: 0 3px 10px rgb(56, 41, 224, 0.2);
+  box-shadow: 0 10px 10px rgb(56, 41, 224, 0.2);
 }
 
 #text-content {
@@ -48,5 +48,28 @@ body {
   padding: 1rem;
   margin: 1.5rem 0;
   border-radius: .6rem;
+}
 
+button {
+  border: 0;
+  outline: 0;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  font-size: .9rem;
+  letter-spacing: .01rem;
+  padding: 1rem;
+  border-radius: .6rem;
+}
+
+button:first-of-type {
+  width: 100%;
+  background-color: var(--brightblue);
+  color: white;
+  box-shadow: 0 10px 20px rgb(56, 41, 224, 0.2);
+
+}
+
+button:last-of-type {
+  background-color: transparent;
+  color: var(--desaturatedblue);
 }
